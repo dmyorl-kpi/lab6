@@ -16,7 +16,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light header">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <img class="logo-car" src="../assets/img/honda-logo-car.png" alt="" />
           <img
             class="logo-moto"
@@ -38,16 +38,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Diargam</a>
             </li>
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link">Map</a>
+              <a href="./map.html" class="nav-link">Map</a>
             </li>
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link">Videos</a>
+              <a href="./videos.html" class="nav-link">Videos</a>
             </li>
           </ul>
         </div>
@@ -216,7 +216,7 @@
         </div>
       </div>
     </div>
-    <footer class="footer row">
+    <footer class="footer row w-10">
       <div class="col-md-3 col-12 contacts-footer">
         <span>CONTACTS:</span>
         <ul>
@@ -232,12 +232,6 @@
     </footer>
     <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/jquery-3.6.1.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(".logo-car").hover(function () {
-          $(".logo-moto").toggleClass("show");
-        });
-      });
-    </script>
+    <script src="../assets/js/app.js"></script>
   </body>
 </html>

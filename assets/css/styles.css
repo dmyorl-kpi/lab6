@@ -14,6 +14,9 @@
     font-family: Fredoka;
     src: url(../fonts/FredokaOne-Regular.ttf) format('truetype');
 }
+.row.wrapper >*{
+  padding: 0;
+}
 body,
 html {
   width: 100%;
@@ -70,6 +73,8 @@ a{
 .header {
   border-bottom: 10px solid black;
   background: linear-gradient(45deg, black 65%, red 65%);
+  padding-top: .5em !important;
+  padding-bottom: .5em;
 }
 .hello {
   height: 20em;
@@ -99,7 +104,6 @@ a{
   height:max-content;
   min-width: 100%;
   z-index: -1;
-  min-height: 100%;
 }
 .banner-1 {
     padding-top: 3em;
@@ -213,6 +217,7 @@ color: rgb(214, 214, 214);
   padding: 2em;
   background-color: black;
   color: silver;
+  padding:2em !important;
 }
 .footer > .contacts-footer{
   color: rgb(207, 207, 207);
@@ -238,4 +243,27 @@ transition: all .2s 0s ease-in;
 .error-img-holder img{
   margin:auto;
   display:block
+}
+.map-wrapper{
+  margin:auto;
+  width: fit-content;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+iframe{
+  display:block;
+  margin: auto;
+}
+.wrapper{
+  min-height: 100%;
+}
+.page-heading{
+  font-family: Patua;
+  padding: 1em;
+}
+.page-heading >span{
+  text-shadow: -1px -3px 10px rgb(177, 177, 177);
+  box-shadow: 3px 3px 1px red,
+  6px 6px 1px black;
+  padding: .2em;
 }
